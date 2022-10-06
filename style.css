@@ -1,7 +1,88 @@
 /*
-Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+Color Palette:ff1e00e8f9fd59ce8f000000
+background color:  <!--Color 1 Red #FF1E00-->
+font color: <!--Color 4 Black #000000--> 
+secondary color:<!--Color 2 White #E8F9FD-->
+tertiary color:  <!--Color 3 Cyan #59CE8F-->
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+html{
+    font-size: 62.5%;        /* Defualt font size is 16px - 62.5% of 16 is 10px 
+                                1 rem (revative unti) now will be equivlent to 10px} */
+}
+
+header {
+        margin:0 4rem;
+        letter-spacing: 0.8rem;
+        text-align: center;
+        border-bottom: 1px solid #FF1E00;
+        border-right:1px solid #FF1E00;
+        border-left: 1px solid #FF1E00;
+        padding: 0.5rem;
+        Box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+}
+
+body {
+    background-color: #59CE8F;
+    color: #f7ccac;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+cite{
+    font-size: 2rem;
+}
+p {
+    font-size: 1.2rem;
+}
+ .imagecard {
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 7rem 4rem;  
+ } 
+ 
+ .imagecard img {
+     width: 100% ;
+     height: auto;
+     border-radius: 30px ;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .imagecard a {
+         text-decoration: none;
+         color: #826F66;
+ }
+ .cardtext {
+     color:#C69B7B;
+     text-align: center;
+     padding: 2rem;
+     border-radius: 30px;
+     Margin-top: 2rem;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ 
+ 
+ 
+ @media (min-width: 768px) {
+     header{ 
+         font-size: 1.6rem;
+ }
+ 
+ 
+ .gallery {
+     display: flex;
+     flex-direction: row;
+     justify-content:space-evenly;
+     flex-wrap: wrap;
+ }
+ 
+ .imagecard {
+     Max-width: 28%;
+     }
+ }
+
+
